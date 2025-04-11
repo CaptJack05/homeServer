@@ -2,11 +2,11 @@
 #include <WiFiClientSecure.h>
 #include <UniversalTelegramBot.h>
 
-#define WIFI_SSID     "Amit"
-#define WIFI_PASSWORD "Jaimatadi"
+#define WIFI_SSID     "ssid"
+#define WIFI_PASSWORD "password"
 
-#define BOT_TOKEN "7572036012:AAECTFRpX6xrSMQHZA2cHGURYF8AGubrYc4"
-#define CHAT_ID    "-1002605351312"
+#define BOT_TOKEN "your bot token" // telgram bot token
+#define CHAT_ID    "chat id" // for multi user
 
 #define BUZZER_PIN 4  // Change to your actual buzzer pin
 #define CHECK_INTERVAL 2000  // 2 seconds
